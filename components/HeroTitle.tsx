@@ -26,7 +26,7 @@ const HeroTitle = () => (
 
     {/* Title & Typewriter Section */}
     <motion.div className="sm:ml-10 flex flex-col items-center sm:items-start">
-      <h3 className="text-xl md:text-2xl text-foreground p-2">Hello, I'm</h3>
+      <h3 className="text-xl md:text-2xl text-foreground p-2">Hello, I&apos;m</h3>
 
       <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary">
         Saurabh Jadhav

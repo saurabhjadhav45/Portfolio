@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/image";
 
 const StyledPic = styled.div`
   max-width: 300px;
@@ -22,7 +23,7 @@ interface ProfileImageProps {
 const ProfileImage: React.FC<ProfileImageProps> = ({ src, alt }) => {
   return (
     <StyledPic>
-      <img src={src} alt={alt} />
+      <Image src={src} alt={alt} width={300} height={300} layout="intrinsic" />
     </StyledPic>
   );
 };
